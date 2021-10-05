@@ -1,5 +1,5 @@
 const init = () => {
-    fetch("http://localhost:3000/tracks")
+    fetch("https://api.spotify.cm/v1/artists/1dfeR4HaWDbWqFHLkxsg1d/top-tracks")
     .then(response => response.json())
     .then(data => console.log(data))
 
