@@ -4,13 +4,21 @@ const init = () => {
 	.then(data => renderAlbumMenu(data))
 }
 
-function renderAlbumMenu(tracks) {
+function renderAlbumMenu(topHits) {
     const albumMenu = document.getElementById('album-list');
 	
-	tracks.forEach(track => {
+	topHits.forEach(track => {
 			const image = document.createElement('img');
 			image.src = track.image;	
-			image.addEventListener( 'cloicl')
+			image.addEventListener( 'click', () => {
+
+				document.getElementById('albumimage').src = topHits.image;
+				document.getElementById('trackname').innerHTML = topHits.title;
+				document.getElementById('ranking').innerHTML = topHits.rating;
+				document.getElementById('albumname').innerHTML = topHits.album;
+
+			})
+			albumMenu.appendChild(image);
 	})
 
 }
