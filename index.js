@@ -4,10 +4,14 @@ const init = () => {
 	.then(data => renderAlbumMenu(data))
 }
 
-function renderAlbumMenu(song) {
+function renderAlbumMenu(tracks) {
     const albumMenu = document.getElementById('album-list');
-	const albumPhoto = document.createElement('img');
-		albumPhoto.src = song.image;
+	
+	tracks.forEach(track => {
+			const image = document.createElement('img');
+			image.src = track.image;	
+			image.addEventListener( 'cloicl')
+	})
 
 }
 
