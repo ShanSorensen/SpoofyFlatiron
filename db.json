@@ -1,68 +1,47 @@
-<<<<<<< HEAD
+
 
 
 {
-  "posts": [
+  "topHits": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id":  1,
+      "title": "Song: God's Plan",
+      "album": "Album: Scorpion",
+      "image": "./assets/scorpion.jpg",
+      "rating":  1,
+      "comment": "Delish. Can't go wrong with a classic!"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": " Song: One Dance feat. WizKid and Kyla",
+      "album": "Album: Views",
+      "image": "./assets/views.jpg",
+      "rating": 2,
+      "comment": "My absolute fave!"
+    },
+    {
+      "id": 3,
+      "title": " Song: Champagne Poetry",
+      "album": "Album: Certified Lover Boy",
+      "image": "./assets/lover_boy.jpg",
+      "rating": 3,
+      "comment": "Do buy the hype."
+    },
+     {
+       "id": 4,
+       "title": "Song: Energy",
+      "album": "Album: If Your Reading This It/'s Too Late",
+      "image": "./assets/image.png",
+      "rating": 4,
+      "comment": "Good to the last drop."
+    },
+     {
+      "id": 5,
+       "title": "Song: Hold On Were Going Home",
+       "album": "Album: Nothing Was The Same",
+       "image": "./assets/nothing_was_the_same.jpg",
+      "rating": 5,
+      "comment": "Perfect for a cold night."
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
-=======
-{
-    "topHits": [
-      {
-        "id": 1,
-        "title": "God/'s Plan",
-        "album": "Scorpion",
-        "image": "./assets/scorpion.jpg",
-        "rating": 1,
-        "comment": "Delish. Can't go wrong with a classic!"
-      },
-      {
-        "id": 2,
-        "title": "One Dance feat. WizKid and Kyla",
-        "album": "Views",
-        "image": "./assets/views.jpg",
-        "rating": 2,
-        "comment": "My absolute fave!"
-      },
-      {
-        "id": 3,
-        "title": "Nice For What",
-        "album": "Scorpion",
-        "image": "./assets/scorpion.jpg",
-        "rating": 3,
-        "comment": "Do buy the hype."
-      },
-      {
-        "id": 4,
-        "title": "Hotline Bling",
-        "album": "Views",
-        "image": "./assets/views.jpg",
-        "rating": 4,
-        "comment": "Good to the last drop."
-      },
-      {
-        "id": 5,
-        "title": "In My Feelings",
-        "album": "Scorpion",
-        "image": "./assets/scorpion.jpg",
-        "rating": 5,
-        "comment": "Perfect for a cold night."
-      }
-    ]
-  }
->>>>>>> a35c14510859b4ae7f83855d1a05d637c2c6a12d

@@ -1,61 +1,70 @@
-* {
+{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    text-align: center;
+    
   }
-
 body {
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(213, 229, 230);
 }
-
 header {
     padding: 0.5rem;
     width: 100%;
     color: black;
 }
-
 #album-list {
-    display: flex;
+
+    flex: 0 1 auto;
+    height: 250px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    /* display: flex;
     overflow-x: auto;
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
+    text-align: center;
+    padding; 900 900;
+    width: 1200px;
+    height: 500px; */
 }
-
 #album-list img {
     flex: 0 1 auto;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-right: 0.5rem;
     cursor: pointer;
+    text-align: center;
 }
-
 #track-detail {
     position: relative;
+    padding: 0.5;
+    margin: auto;
+    position: fixed; top:20px;
 }
-
 .detail-image {
-    height: 350px;
+    height: 200px;
+    border: dotted
 }
-
 .trackName,
 .artist {
     position: absolute;
-    left: 10px;
+    left: 200px;
     padding: 0.25rem 5rem 0.25rem 1rem;
 }
-
 .trackName {
     bottom: 60px;
 }
-
 .artist {
     bottom: 20px;
+    font-size: 300px;
 }
-
 form {
     margin: 1rem 0;
     width: 300px;
@@ -63,7 +72,6 @@ form {
     flex-direction: column;
     align-items: flex-start;
 }
-
 input,
 textarea {
     font-size: 1rem;
@@ -73,7 +81,6 @@ textarea {
     margin: 0.25rem 0;
     width: 100%;
 }
-
 input[type="submit"] {
     color: white;
     border: 1px solid white;
@@ -81,11 +88,9 @@ input[type="submit"] {
     cursor: pointer;
     transition: all 0.3s;
   }
-  
   input[type="submit"]:active {
     background-color: gray;
   }
-  
   form h4 {
     width: 100%;
     padding: 0.25rem;
@@ -93,4 +98,3 @@ input[type="submit"] {
     color: white;
     background-color: black;
   }
-  

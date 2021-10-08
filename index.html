@@ -3,41 +3,60 @@
 
     <head>
         <meta charset="utf-8">
-        <style>
-            body {
-                background-color: #1DB954;
-            }
-
-        </style>
+       <link rel= "stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
             <h1> Spoofy Track Rater </h1>
+            <h2>Drake's Top Songs</h2>
         </header>
 
+        
         <!-- Album List -->
         <div id="album-list">
+
         </div>
 
         <!-- Track Details -->
-        <div id="track-detail">
-            <img class="album-image" src="./assets/image-placeholder.jpg" alt="Instert Name Here" />
-            <h2 class="track-name"> Insert Name Here </h2>
-            <h3 class="artist"> Insert Artist Here </h3>
-            <h4 class="album-name"> Insert Album Name Here</h4>
-            <h4 class="release-date"> Insert Release Date Here</h4>
+       
+
+        <div class="track-detail">
+            
+            <img id="album-image" width="300px" text-alight='center'  src="./assets/image-placeholder.jpg" alt="Instert Name Here" />
+            <h1 id="album-name"> Insert Album Name Here</h1>
+            <h2 id="track-name"> Insert Name Here </h2>
+            <h3 id="ranking"> Insert Artist Here </h3>
+            <!-- <h4 id="release-date"> Insert Release Date Here</h4> -->
         </div>
 
         <!-- New Rating/Comment Form-->
-        <form id="new-submission">
+
+        <h3>Tell Us Your Thoughts</h3>
+        <ul id="review-list">
+          <!-- <li>Hot Album</li>
+          <li>I totally love Drake</li> -->
+        </ul>
+        <form id="review-form">
+          <label for="review">Your Comments:</label>
+          <textarea id="review"></textarea>
+          <button type="submit">Add review</button>
+        </form>
+
+
+
+
+        <!-- <form id="new-submission">
             <h4>Let's hear your thoughts!</h4>
-            <label for="rating"> Rating: </label>
-            <input type="number" name="rating" id="new_rating" />
-            <label for="new-comment">Comment: </label>
+            <!-- <label for="rating"> Rating: </label> -->
+            <!-- <input type="number" name="rating" id="new_rating" /> -->
+            <!-- <label for="new-comment">Comment: </label>
             <textarea name="new-comment" id="new_comment"></textarea>
             <br>
-            <input type="submit" value="Share"/>
-        </form>
+            <!-- <input type="submit" value="Share"/> --> 
+
+        
+        <!-- </form> -->
     </body>
+    <script src='index.js',> </script>
 </html>
