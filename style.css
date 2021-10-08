@@ -20,7 +20,9 @@ header {
     color: black;
 }
 #spoofy-logo {
-    border-radius: 35%;
+    border-radius: 40%;
+    width: 300px;
+    height: auto;
 }
 #album-list {
 
