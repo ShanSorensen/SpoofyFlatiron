@@ -12,12 +12,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(213, 229, 230);
+    background-color: rgb(213, 229, 250);
 }
 header {
     padding: 0.5rem;
     width: 100%;
     color: black;
+}
+#spoofy-logo {
+    border-radius: 35%;
 }
 #album-list {
 
