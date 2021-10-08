@@ -5,40 +5,35 @@
         "title": "God/'s Plan",
         "album": "Scorpion",
         "image": "./assets/scorpion.jpg",
-        "rating": 1,
-        "comment": "Delish. Can't go wrong with a classic!"
+        "rating": 1
       },
       {
         "id": 2,
         "title": "One Dance feat. WizKid and Kyla",
         "album": "Views",
         "image": "./assets/views.jpg",
-        "rating": 2,
-        "comment": "My absolute fave!"
+        "rating": 2
       },
       {
         "id": 3,
         "title": "Nice For What",
         "album": "Scorpion",
         "image": "./assets/scorpion.jpg",
-        "rating": 3,
-        "comment": "Do buy the hype."
+        "rating": 3
       },
       {
         "id": 4,
         "title": "Hotline Bling",
         "album": "Views",
         "image": "./assets/views.jpg",
-        "rating": 4,
-        "comment": "Good to the last drop."
+        "rating": 4
       },
       {
         "id": 5,
         "title": "In My Feelings",
         "album": "Scorpion",
         "image": "./assets/scorpion.jpg",
-        "rating": 5,
-        "comment": "Perfect for a cold night."
+        "rating": 5
       }
     ]
   }

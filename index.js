@@ -1,4 +1,14 @@
-// const init = () => {
+const init = () => {
+	fetch("http://localhost:3000/topHits")
+	.then(response => response.json())
+	.then(data => renderAlbumMenu(data))
+}
 
-// 	
-// document.addEventListener('DOMContentLoaded', init)
+function renderAlbumMenu(song) {
+    const albumMenu = document.getElementById('album-list');
+	const albumPhoto = document.createElement('img');
+		albumPhoto.src = song.image;
+
+}
+
+document.addEventListener("DOMContentLoaded", init)
